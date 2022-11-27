@@ -1,0 +1,51 @@
+h1{
+    color:red;
+}
+h2{
+    color:green;
+}
+h3{
+    color:yellow;
+}
+
+/* class选择器 */
+.div1{
+    color: red;
+}
+.div2{
+    color: green;
+}
+.div3{
+    background-color: black;
+}
+
+/* id选择器 */
+#div4{
+    color:aqua;
+}
+
+#div5{
+    color:rgb(255, 0, 191);
+}
+
+/* 通配符 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 伪类选择器 必须遵守顺序 */
+.a1:link{
+    color: yellow;
+}
+.a1:visited{
+    color:red;
+}
+.a1:hover{
+    color:green;
+}
+.a1:active{
+    color:blueviolet
+}
+
+/* id选择器权重 >class >元素 */
